@@ -50,7 +50,7 @@ for x in data:
                         first_d = dict_digits[x[y:y + 5]]
                         found = True
                         break
-                except:
+                finally:
                     pass
 
     else:
@@ -78,7 +78,7 @@ for x in data:
                         second_d = dict_digits[x[y:y + 5]]
                         found = True
 
-                except:
+                finally:
                     pass
     else:
         pass
